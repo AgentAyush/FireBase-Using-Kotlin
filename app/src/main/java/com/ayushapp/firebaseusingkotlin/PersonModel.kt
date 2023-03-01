@@ -1,8 +1,8 @@
 package com.ayushapp.firebaseusingkotlin
 
 data class PersonModel(
-    val personID: String,
-    val personName: String,
-    val personAge: String,
-    val personRoll: String
+    var personID: String ? ="",
+    var personName: String?="",
+    var personAge: String?="",
+    var personRoll: String?=""
 )
